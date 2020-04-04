@@ -1,12 +1,12 @@
-\documentclass{article}
+\documentclass{report}
 
-\usepackage[margin=1in]{geometry}
-\usepackage{setspace}
+% \usepackage[margin=1in]{geometry}
+% \usepackage{setspace}
 \usepackage{color}
-\usepackage{graphicx}
-\usepackage{hyperref}
-\usepackage{cite}
-\usepackage{amsmath}
+% \usepackage{graphicx}
+% \usepackage{hyperref}
+% \usepackage{cite}
+% \usepackage{amsmath}
 %\everymath{\displaystyle}
 
 %\usepackage{longtable}
@@ -17,27 +17,19 @@
 
 \begin{document}
 
-\doublespacing
-
-\input{todo}
-
-\input{header}
-
-\begin{abstract}
-\input{abstract}
-\end{abstract}
+\title{Rules of Games}
+\author{Anson Jablinski}
+\date{2020}
+\maketitle
 
 \tableofcontents
 
-\clearpage
 
 % Document content
 \input{_section1}
 \input{_section2}
 
-\clearpage
-
-\addcontentsline{toc}{section}{References}
+\addcontentsline{toc}{chapter}{Bibliography}
 \bibliographystyle{plain}
 \bibliography{src}
 
